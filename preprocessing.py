@@ -19,3 +19,9 @@ def preprocess(text):
     words = [w for w in words if w not in stop_words]
     return " ".join(words)
     return " ".join(words)
+
+
+# Example usage of this library
+#
+# from preprcessing import preprocess
+# train_df["processed_column"] = train_df["some_column"].apply(preprocess)
